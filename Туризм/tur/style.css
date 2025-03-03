@@ -1,0 +1,93 @@
+.unique-tours-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.unique-tours-section .container {
+    text-align: center;
+}
+
+.unique-section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #0562be;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+.unique-tours-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.unique-tour-card {
+    width: 280px;
+    height: 500px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 30px;
+}
+
+.unique-tour-card:hover {
+    transform: translateY(-10px);
+}
+
+.unique-tour-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.unique-tour-info {
+    padding: 20px;
+    text-align: left;
+    height: 220px; 
+}
+
+.unique-tour-title {
+    font-size: 1.6rem;
+    color: #0653a5;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.unique-tour-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.unique-tour-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.unique-tour-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.unique-btn {
+    background-color: #7c1d10;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.unique-btn:hover {
+    background-color: #0056b3;
+}
